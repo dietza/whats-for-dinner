@@ -4,7 +4,68 @@ COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
-red - #ee5253
+red - #ee5253 */
 
-*/
 
+header {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+.navigation {
+  background-color: #12B9B2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.icon-box {
+
+}
+
+.add-recipe-button {
+
+}
+
+.lets-cook-button {
+  color: #12B9B2;
+}
+
+#side {
+
+}
+
+
+
+
+
+
+.hidden {
+  display: none;
+}
