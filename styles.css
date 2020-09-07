@@ -32,14 +32,14 @@ main {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto bold', sans-serif;
   text-align: center;
   font-weight: bolder;
   font-size: 110%;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto bold', sans-serif;
   font-weight: bolder;
   font-size: 100%;
   padding-right: 10px;
@@ -49,7 +49,7 @@ h2 {
 
 ul {
   list-style-type: none;
-  padding-left: 35px;
+  padding-left: 20px;
   padding-right: 5px;
   margin-bottom: 0;
 }
@@ -119,7 +119,9 @@ ul {
 
 .add-recipe-button {
   text: black;
-  border: solid black 1px;
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bold;
+  border: solid black 0px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
@@ -133,7 +135,9 @@ ul {
   background-color: #12B9B2;
   opacity: 100%;
   text: black;
-  border: solid black 1px;
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bold;
+  border: solid black 0px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-right: 10px;
