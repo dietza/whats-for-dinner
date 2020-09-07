@@ -4,7 +4,156 @@ COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
 grey - #95a5a6;
-red - #ee5253
+red - #ee5253 */
 
-*/
 
+header {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  background-image: url("/Users/allisondietz/turing/mod_1/projects/whats-for-dinner/whats-for-dinner/assets/burger-friends.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Roboto bold', sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 110%;
+}
+
+h2 {
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bolder;
+  font-size: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 5px;
+  margin-bottom: 0;
+}
+
+.navigation {
+  background-color: #12B9B2;
+  border: solid black 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  border: solid black 0px;
+  justify-content: space-around;
+  align-items: top;
+  size: 100%;
+}
+
+.input-box {
+  background:rgba(255, 255, 255,.75);
+  opacity: 100%;
+  display: inline-flex;
+  height: 300px;
+  width: 300px;
+  border: solid black 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.category-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+
+}
+
+.icon-box {
+  background:rgba(255, 255, 255,.75);
+  opacity: 100%;
+  display: inline-flex;
+  height: 300px;
+  width: 300px;
+  border: solid black 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cookpot-icon {
+  align-content: center;
+  height: 25%;
+  width: 25%;
+}
+
+.add-recipe-button {
+  text: black;
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bold;
+  border: solid black 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin: 15px;
+  margin-right: 25px;
+}
+
+.lets-cook-button {
+  background-color: #12B9B2;
+  opacity: 100%;
+  text: black;
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bold;
+  border: solid black 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+.hidden {
+  display: none;
+}
