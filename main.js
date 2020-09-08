@@ -51,6 +51,7 @@ var dessertsArr = [
 
 
 // radio button selectors:
+var radioButtonsArr = document.querySelectorAll('.category');
 var sideRadio = document.querySelector('#side');
 var mainRadio = document.querySelector('#main-dish');
 var dessertRadio = document.querySelector('#dessert');
@@ -62,32 +63,44 @@ var addRecipeButton = document.querySelector('.add-recipe-button');
 var letsCookButton = document.querySelector('.lets-cook-button');
 
 
-
-
 // sections:
 var cookPotIcon = document.querySelector('.cookpot-icon');
-
-
-
-
-// form inputs:
-
+var resultMessage = document.querySelector('.result-message');
+var message = document.querySelector('.message');
 
 
 // event listeners:
-addRecipeButton.addEventListener('click',addRecipe);
+letsCookButton.addEventListener('click', suggestRandomDish)
 
 
-// functions:
 
 function getRandomIndex(array) {
+
   var randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
-}
-
-function addRecipe() {
 
 }
+
+
+function suggestRandomDish() {
+
+  for (i = 0; i = radioButtonsArr; i++) {
+
+    if (radioButtonsArr[i].checked === true) {
+      var selectedCategory = radioButtonsArr[i].value;
+    };
+
+    var suggestedDish = getRandomIndex(selectedCategory);
+
+  }
+
+  resultMessage.innerText = suggestedDish;
+
+  message.classList.remove('.hidden');
+  resultMessage.classList.remove('.hidden');
+
+}
+
 
 
 // Iteration 1:
@@ -97,21 +110,6 @@ function addRecipe() {
 // a RANDOM dish (random index value) from the appropriate array
 // is returned in the result-box
 
-
-// Iteration 2:
-
-//
-
-// Iteration 3:
-
-//
-
-
-
-
-
-
-
-
-
-console.log(getRandomIndex(sidesArr));
+///// identify WHICH radio button has been selected,
+///// use the VALUE of the selected radio button to pass in as the identified ARRAY,
+///// from which we will SELECT and RETURN a RANDOM (value) dish.

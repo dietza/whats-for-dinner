@@ -12,16 +12,14 @@ header {
   display: block;
   margin: 0;
   width: 100%;
-  /* z-index: 1; */
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   display: block;
-  background-image: url("../assets/burger-friends.jpg");
+  background-image: url("./assets/burger-friends.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* z-index: 0; */
   margin: 0;
 }
 
@@ -150,6 +148,24 @@ ul {
   margin-top: 0px;
 }
 
+.message {
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 100%;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 20px;
+}
+
+.result-message {
+  font-family: 'Roboto bold', sans-serif;
+  font-weight: bolder;
+  font-size: 100%;
+  margin: 20px;
+}
 
 
 
