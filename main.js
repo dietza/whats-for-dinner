@@ -88,13 +88,13 @@ function suggestRandomDish() {
 
     if (radioButtonsArr[i].checked === true) {
       var selectedCategory = radioButtonsArr[i].value;
+      var suggestedDish = getRandomIndex(selectedCategory);
+      resultMessage.innerText = suggestedDish;
     };
-
-    var suggestedDish = getRandomIndex(selectedCategory);
 
   }
 
-  resultMessage.innerText = suggestedDish;
+  // resultMessage.innerText = suggestedDish;
 
   message.classList.remove('.hidden');
   resultMessage.classList.remove('.hidden');
