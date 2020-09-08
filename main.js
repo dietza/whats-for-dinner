@@ -62,8 +62,11 @@ var addRecipeButton = document.querySelector('.add-recipe-button');
 var letsCookButton = document.querySelector('.lets-cook-button');
 
 
+
+
 // sections:
 var cookPotIcon = document.querySelector('.cookpot-icon');
+
 
 
 
@@ -89,7 +92,11 @@ function addRecipe() {
 
 // Iteration 1:
 
-// 
+// When a user selects a RADIO BUTTON (dish category),
+// then CLICKS the "Let's Cook" BUTTON,
+// a RANDOM dish (random index value) from the appropriate array
+// is returned in the result-box
+
 
 // Iteration 2:
 
