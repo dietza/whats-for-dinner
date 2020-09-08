@@ -18,7 +18,7 @@ header {
 body {
   font-family: 'Roboto', sans-serif;
   display: block;
-  background-image: url("./assets/burger-friends.jpg");
+  background-image: url("../assets/burger-friends.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   /* z-index: 0; */
